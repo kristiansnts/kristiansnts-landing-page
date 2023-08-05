@@ -44,6 +44,7 @@ body {
 }
 
 /* Main Style */
+/* Nav */
 nav {
     padding: 20px 0;
 }
@@ -65,4 +66,39 @@ ul a {
 ul li a:hover {
     color: var(--main);
     background-color: white;
+}
+
+/* Jumbotron */
+.jumbotron {
+    margin: 4rem 0;
+    align-items: center;
+    flex-wrap: wrap-reverse;
+    justify-content: space-between;
+}
+
+.hero-title {
+    max-width: 300px;
+}
+
+.hero-title h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+.hero-title p {
+    font-size: 18px;
+    color: #e5e7eb;
+    margin: 10px 0 20px;
+}
+
+.hero-image {
+    width: min(40%, 600px);
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: var(--secondary);
+    color: white;
+    border-radius: 8px;
 }
