@@ -20,6 +20,7 @@ li {
 
 a {
     text-decoration: none;
+    color: white;
 }
 
 img {
@@ -28,9 +29,40 @@ img {
 
 body {
     font-family: 'Roboto', sans-serif;
+    background-color: var(--main);
+    color: white;
 }
 
-/* .container {
-    max-width: 1200px;
+/* Base Style */
+.container {
+    max-width: min(80%, 1200px);
     margin: 0 auto;
-} */
+}
+
+.flex {
+    display: flex;
+}
+
+/* Main Style */
+nav {
+    padding: 20px 0;
+}
+
+nav .logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #f9faf8;
+}
+
+ul {
+    margin-left: auto;
+}
+
+ul a {
+    padding: 20px;
+}
+
+ul li a:hover {
+    color: var(--main);
+    background-color: white;
+}
