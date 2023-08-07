@@ -201,3 +201,9 @@ ul li a:hover {
     border: 1px solid white;
     border-radius: 10px;
 }
+
+/* Footer */
+footer {
+    padding: 30px;
+    text-align: center;
+}
